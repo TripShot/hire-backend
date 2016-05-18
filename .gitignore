@@ -1,0 +1,8 @@
+*~
+dist
+log
+TAGS
+*.hp
+*.prof
+.stack-work
+
