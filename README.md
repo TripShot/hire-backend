@@ -34,7 +34,7 @@ You should see "HELLO" after running curl.
 
 - The server runs in the foreground, stop it using "Ctrl-C".
 
-- As you work on these excercises you'll need to recompile and restart the server. One easy way to do this is using this shell pipeline:
+- As you work on these exercises you'll need to recompile and restart the server. One easy way to do this is using this shell pipeline:
 ```
 stack build && stack exec hire-backend-exe
 ```
@@ -159,7 +159,7 @@ it.  After we discuss your code we will ask you to delete your forked
 repository. Make the next hire work for it!
 
 We are always interested in improving our hiring processes, so
-feedback about the excercises is welcome.
+feedback about the exercises is welcome.
 
 Congratulations, you are done. Thanks for your interest in Tripshot!
 
