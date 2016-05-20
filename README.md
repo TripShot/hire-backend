@@ -44,7 +44,7 @@ If you have problems up to this point, please don't suffer in silence, reach out
 Now you're ready to start!
 
 
-## Add /math1 endpoint.
+## Add /math1 endpoint
 
 In src/Web.hs you will find `start`, the server entry point.
 
@@ -57,7 +57,7 @@ Add a new GET endpoint at the path "/math1" that takes three query parameters :
 The response should be the value of `op` applied to `arg1` and `args2`, as text/plain. Try to give decent error messages if the args are invalid.
 
 
-## Add /math2 endpoint.
+## Add /math2 endpoint
 
 Now add a slightly better version of /math1, GET "/math2" which takes a json request entity, A, like this:
 
@@ -86,7 +86,7 @@ For example for the A above, B is :
 Hint : Don't parse the json yourself, use an existing json lib.
 
 
-## A bit of state.
+## A bit of state
 
 Now we want to count how many times /math1 and /math2 have been called since the last server restart.
 Add an endpoint /stats which returns a json response like so:
@@ -106,7 +106,7 @@ another hint.
 
 
 
-## Rate limiting.
+## Rate limiting
 
 Oh no, everyone wants to use your math service. Time to prevent abuse.
 
