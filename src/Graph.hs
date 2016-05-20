@@ -7,6 +7,7 @@ import Data.Text
 type PropName = Text
 type PropValue = Text
 
+-- | A node in a tree.
 data Node = Node
   {
     children :: ![Node]
@@ -30,3 +31,23 @@ mostCommonInDescendents = undefined
 -- Nothing.
 breadthFirstSearch :: PropName -> PropValue -> Node -> Maybe Node
 breadthFirstSearch = undefined
+
+
+
+
+-- | A node that performs IO to get its children.
+data NodeM = NodeM
+  {
+    childrenM :: !(IO [NodeM])
+  , propsM    :: !(HashMap PropName PropValue)
+  }
+
+
+-- | @mostCommonInDescendentsM propName root@ is identical to `mostCommonInDescendents` except the lookup of children happens in IO.
+mostCommonInDescendentsM :: PropName -> NodeM -> IO (Maybe PropValue)
+mostCommonInDescendentsM = undefined
+
+
+-- | @breadthFirstSearchM propName propValue root@ is identical to `breadthFirstSearch` except the lookup of children happens in IO.
+breadthFirstSearchM :: PropName -> PropValue -> NodeM -> IO (Maybe NodeM)
+breadthFirstSearchM = undefined

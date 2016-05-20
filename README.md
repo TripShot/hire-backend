@@ -146,6 +146,12 @@ Now look at src/Graph.hs. In there is a stubbed function `mostCommonInDescendent
 Also in src/Graph.hs, implement `breadthFirstSearch` according to the doc found there.
 
 
+## Graph in IO
+
+Now imagine the graph is too big to fit in memory. Traversing from a node to its children happens in IO, perhaps it calls out to a database.
+Implement `mostCommonInDescendentsM` and `breadthFirstSearchM` which are the monadic equivalent to the pure functions you wrote above.
+
+
 ## Wrapping up
 
 Now just push your code to github and let us know where we can find
