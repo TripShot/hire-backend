@@ -11,9 +11,8 @@ you need more time just let us know.
 
 ## Setup
 
-- Fork this repository.
+- Clone this repository to your local machine. Please do NOT fork it on github.
 - Install [stack](http://docs.haskellstack.org/en/stable/README/) on your local machine.
-- Clone your fork to your local machine.
 - From the working directory, setup stack and build the skeleton code.
 ```
 stack setup
@@ -154,9 +153,16 @@ Implement `mostCommonInDescendentsM` and `breadthFirstSearchM` which are the mon
 
 ## Wrapping up
 
-Now just push your code to github and let us know where we can find
-it.  After we discuss your code we will ask you to delete your forked
-repository. Make the next hire work for it!
+When you are done, execute the following:
+
+```
+stack clean
+stack sdist
+```
+
+That last command will put a source tarball somewhere under
+.stack-work, read the last line to find it. Email that tarball back to
+us.
 
 We are always interested in improving our hiring processes, so
 feedback about the exercises is welcome.
