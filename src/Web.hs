@@ -20,4 +20,4 @@ getHello :: Snap ()
 getHello = do
   modifyResponse $ setContentType "text/plain"
 
-  writeLBS "HELLO"
+  writeLBS "HELLO\n"
