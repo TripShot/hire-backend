@@ -133,7 +133,7 @@ polygon. Define the json request format yourself.
 
 Now add suitable tests for your polygon inclusion algorithm. Use
 whatever testing lib you think makes sense, however at least one test
-needs to be a property test using QuickTest.
+needs to be a property test using QuickCheck.
 
 
 ## Tree traversal
