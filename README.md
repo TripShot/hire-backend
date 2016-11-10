@@ -58,7 +58,7 @@ The response should be the value of `op` applied to `arg1` and `args2`, as text/
 
 ## Add /math2 endpoint
 
-Now add a slightly better version of /math1, GET "/math2" which takes a json request entity, A, like this:
+Now add a slightly better version of /math1, POST "/math2" which takes a json request entity, A, like this:
 
 ```
 [
