@@ -12,6 +12,8 @@ build-type:          Simple
 -- extra-source-files:
 cabal-version:       >=1.10
 
+extra-source-files: stack.yaml
+
 library
   hs-source-dirs:      src
   exposed-modules:     Web
