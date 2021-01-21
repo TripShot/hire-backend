@@ -5,4 +5,5 @@ TAGS
 *.hp
 *.prof
 .stack-work
+stack.yaml.lock
 
