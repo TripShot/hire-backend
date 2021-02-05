@@ -4,7 +4,7 @@ Here you will find a set of exercises to help us get to know your
 experience with Haskell. We want this to be fun and solved in the same
 way you'd tackle a real project at work. Feel free to use online
 documentation and incorporate additional libraries into the
-project. This is setup as a stack project with lts-5.17. If you don't
+project. This is setup as a stack project with lts-11.22. If you don't
 know stack very well feel free to ask for help. Take a few days and if
 you need more time just let us know.
 
