@@ -121,7 +121,7 @@ Its okay if the rate limits resets during server restart.
 
 ## A little math
 
-The [winding number algorithm](http://geomalgorithms.com/a03-_inclusion.html#wn_PnPoly()) is a cool way to quickly tell if a point is within a polygon, even when the polygon crosses itself.
+The [winding number algorithm](https://web.archive.org/web/20210412222950/http://geomalgorithms.com/a03-_inclusion.html) is a cool way to quickly tell if a point is within a polygon, even when the polygon crosses itself.
 
 First implement the algorithm linked above, then add an endpoint that
 allows callers to submit a polygon and a point and get back a
